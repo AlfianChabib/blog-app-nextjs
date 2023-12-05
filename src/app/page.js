@@ -13,8 +13,6 @@ async function getBlogs() {
 export default async function Home() {
   const blogs = await getBlogs();
 
-  console.log(blogs);
-
   return (
     <main className="flex relative container min-h-screen flex-col">
       <Navbar />

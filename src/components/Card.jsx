@@ -1,9 +1,8 @@
-// "use client";
 import Link from "next/link";
 import ContentfulImage from "./ContentfulImage";
 
 export default function Card({ blog }) {
-  console.log(blog);
+  // console.log(blog);
 
   return (
     <Link
