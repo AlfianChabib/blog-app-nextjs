@@ -41,7 +41,7 @@ nav {
 }
 
 .content h1 {
-  @apply text-4xl;
+  @apply text-4xl font-semibold;
 }
 .content h2 {
   @apply text-3xl;
@@ -49,7 +49,10 @@ nav {
 .content h3 {
   @apply text-2xl;
 }
-
 .content p {
-  @apply text-gray-300;
+  @apply text-gray-300 indent-10;
+}
+.content code {
+  @apply bg-zinc-900 py-2 px-2 rounded-sm;
+  font-family: monospace;
 }

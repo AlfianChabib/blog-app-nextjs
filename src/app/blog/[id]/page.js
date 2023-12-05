@@ -1,5 +1,4 @@
 import Navbar from "@/components/Navbar";
-import Tex from "@/components/Tex";
 import blogbg from "#/public/blogbg.webp";
 import Image from "next/image";
 import { client } from "@/lib/contentful";
@@ -83,7 +82,6 @@ export default async function Page({ params }) {
           ))}
         </div>
       </section>
-      {/* <Tex sidebarList={sidebarList} /> */}
     </main>
   );
 }
